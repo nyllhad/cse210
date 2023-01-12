@@ -11,22 +11,22 @@ class Program
 
         string letterGrade = "";
 
-        if (percentage >= 90)
+        if (percentage >= 90 && percentage <= 100)
         {
             letterGrade = "A";
         }
         
-        else if (percentage >= 80)
+        else if (percentage >= 80 && percentage <= 89)
         {
             letterGrade = "B";
         }
 
-        else if (percentage >= 70)
+        else if (percentage >= 70 && percentage <= 79)
         {
             letterGrade = "C";
         }
 
-        else if (percentage >= 60)
+        else if (percentage >= 60 && percentage <= 69)
         {
             letterGrade = "D";
         }
